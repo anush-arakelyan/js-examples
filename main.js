@@ -4,9 +4,9 @@ function clickButton() {
 }
 
 function myFunction() {
-    var str = "tparan";
+    var str = "tparanddd";
     alert(str.length);
-    str = str[2] + str[3] + str[4];
+    str = str[2] + str[3] + str[8];
     alert(str.toUpperCase());
 }
 
@@ -17,10 +17,11 @@ function upercase() {
         message =  'Hello!',
         age = 25,
         user = 'John';
-    alert(blablabla.lala === undefined);
-    alert(blablabla.name === undefined);
-    alert( message + age + user) ;
+    // alert(blablabla.lala === undefined);
+    // alert(blablabla.name === undefined);
+    alert( message + age + user + "name") ;
 }
+
 function age() {
     var age = prompt('How old are you ?');
     if (age) {
@@ -35,6 +36,7 @@ function age() {
         }
     }
 }
+
 function years() {
     var age = prompt('years?', 18),
         message;
@@ -43,6 +45,7 @@ function years() {
         alert( message);
     }
 }
+
 function netscape() {
     var company = prompt('What company do you work for?');
     if (company) {
@@ -50,3 +53,20 @@ function netscape() {
     }
 }
 
+function date(){
+    var time = document.getElementById('demo');
+    time.innerHTML = Date();
+}
+
+function color(){
+    var time = document.getElementById('demo');
+    console.log()
+    time.style.color = "red";  
+}
+
+function enter(){
+    var text, input;
+    text = document.getElementById('demo');
+    input = document.getElementById('number').value;
+    text.innerHTML = input;
+}
