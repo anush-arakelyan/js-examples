@@ -70,3 +70,21 @@ function enter(){
     input = document.getElementById('number').value;
     text.innerHTML = input;
 }
+// function changeColor(){
+//     var image = document.getElementById("image");
+//     if (image.src.match("bulbon")) {
+//         image.src = "pic_bulboff.gif";
+//     } else {
+//         image.src = "pic_bulbon.gif";
+//     }
+// }
+
+
+// function changeColor() {
+//     var image = document.getElementById('image');
+//     if (image.src.match("bulbon")) {
+//         image.src = "pic_bulboff.gif";
+//     } else {
+//         image.src = "pic_bulbon.gif";
+//     }
+// }
